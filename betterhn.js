@@ -11,8 +11,16 @@ if (window.top === window) {
     // submission text links
     var submissionText = $submission.html();
     $submission.html(submissionText.replace(/(https?:\/\/.*?)[\s|<]/g, function() {
-      var terminator = arguments[0].charAt(arguments[0].length - 1);
-      return '<a href="'+arguments[1]+'" target="_blank">' + arguments[1] + '</a>' + terminator;
+      var terminator = arguments[0].charAt(arguments[0].length - 1),
+          url        = arguments[1];
+
+      // I can't get the regex above to match a "." at the end of a url, but not inside the url
+      // so here is a cheap hack to work around my incompetency
+      if (url.match(/\.$/)) {
+        url        = url.replace(/\.$/, "");
+        terminator = '.' + terminator;
+      }
+      return '<a href="' +url + '" target="_blank">' + url + '</a>' + terminator;
     }));
 
     // thread folding
