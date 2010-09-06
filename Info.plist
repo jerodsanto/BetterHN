@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Jerod Santo</string>
+	<key>CFBundleDisplayName</key>
+	<string>BetterHN</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.jerodsanto.betterhn</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict/>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>betterhn.js</string>
+			</array>
+			<key>Start</key>
+			<array>
+				<string>jquery.min.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Improves Hacker News by adding handy features like comment thread folding &amp; submission text links.</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>news.ycombinator.com</string>
+			</array>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>http://github.com/sant0sk1/BetterHN</string>
+</dict>
+</plist>
