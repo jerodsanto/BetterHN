@@ -8,7 +8,7 @@ The source code is on [GitHub][repo]. You can get the installable version [here]
 
 ## Bugs & Feature Requests ##
 
-Please use Github Issues to report any bugs or feature requests.
+Please use [Github Issues][issues] to report any bugs or feature requests.
 
 ## Contributing ##
 
@@ -51,3 +51,4 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 [install]:http://jerodsanto.net/downloads/safari/BetterHN.safariextz
 [hn]:http://news.ycombinator.com/news
 [yc]:http://ycombinator.com/
+[issues]:http://github.com/sant0sk1/BetterHN/issues
