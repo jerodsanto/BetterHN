@@ -7,7 +7,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>BetterHN</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.jerodsanto.betterhn</string>
+	<string>com.jerodsanto.BetterHN</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
@@ -46,6 +46,8 @@
 			<string>Some</string>
 		</dict>
 	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://jerodsanto.net/downloads/safari/extensions-updater.plist</string>
 	<key>Website</key>
 	<string>http://github.com/sant0sk1/BetterHN</string>
 </dict>
